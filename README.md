@@ -69,7 +69,7 @@ var auth = require("node-weixin-auth");
 var config = require("node-weixin-config");
 config.app.init(app);
 
-nodeWeixinMenu.create(app, auth, menu, function (error, data) {
+nodeWeixinMenu.create(app, menu, function (error, data) {
   //error === true
   //data.errcode === 0
   //data.errmsg === 'ok'
